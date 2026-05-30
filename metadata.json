@@ -1,0 +1,6 @@
+{
+  "name": "NutriPulse",
+  "description": "An easy-to-use, super clean, and colorful healthy habits and food helper made for students to track meals, water, and fun physical activities with a bright-colored friendly AI coach.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

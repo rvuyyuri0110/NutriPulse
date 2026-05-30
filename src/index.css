@@ -1,0 +1,183 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: -apple-system, BlinkMacSystemFont, "SF Pro Text", "SF Pro Display", "SF Compact", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-serif: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", "SF Compact", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* Base resets for a highly professional 3-color elegant design */
+body {
+  background-color: #F6F4EF; /* Pure premium warm cream background */
+  color: #2D2A26; /* Highly legible sleek charcoal dark for all lettering */
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "SF Pro Display", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Premium micro-borders and cards resembling Apple Store/Enterprise designs */
+.card-bento {
+  background-color: #FFFFFF; /* Pure clean light white cards */
+  border-radius: 14px;
+  border: 1px solid #EBE6DC; /* Sharp, ultra-thin elegant borders */
+  padding: 24px;
+  box-shadow: 0 4px 20px rgba(45, 42, 38, 0.02);
+  transition: all 0.2s ease-in-out;
+}
+
+.card-bento:hover {
+  border-color: #2D2A26; /* High-end focus border on interactive grids */
+}
+
+/* Premium dark theme overrides with high legibility */
+html.dark {
+  --bg-app: #121110;
+  --bg-card: #1D1B1A;
+  --text-primary: #EDEBE6;
+  --text-muted: #A6A097;
+  --border-color: #383531;
+}
+
+html.dark body {
+  background-color: var(--bg-app) !important;
+  color: var(--text-primary) !important;
+}
+
+html.dark .card-bento {
+  background-color: var(--bg-card) !important;
+  border-color: var(--border-color) !important;
+}
+
+html.dark .card-bento:hover {
+  border-color: var(--text-primary) !important;
+}
+
+html.dark .bg-white {
+  background-color: var(--bg-card) !important;
+}
+
+html.dark .bg-\[\#F6F4EF\], html.dark .bg-\[\#f6f4ef\] {
+  background-color: #262423 !important;
+}
+
+html.dark .bg-\[\#F6F4EF\]\/25, html.dark .bg-\[\#f6f4ef\]\/25 {
+  background-color: rgba(38, 36, 35, 0.25) !important;
+}
+
+html.dark .bg-\[\#F6F4EF\]\/40, html.dark .bg-\[\#f6f4ef\]\/40 {
+  background-color: rgba(38, 36, 35, 0.40) !important;
+}
+
+html.dark .bg-\[\#F6F4EF\]\/55, html.dark .bg-\[\#f6f4ef\]\/55 {
+  background-color: rgba(38, 36, 35, 0.55) !important;
+}
+
+html.dark .bg-\[\#FFFFFF\]\/95, html.dark .bg-\[\#ffffff\]\/95 {
+  background-color: rgba(29, 27, 26, 0.95) !important;
+}
+
+html.dark .border-\[\#EBE6DC\], html.dark .border-\[\#ebe6dc\] {
+  border-color: var(--border-color) !important;
+}
+
+html.dark .border-\[\#EBE6DC\]\/60, html.dark .border-\[\#ebe6dc\]\/60 {
+  border-color: rgba(56, 53, 49, 0.6) !important;
+}
+
+html.dark .border-\[\#EBE6DC\]\/80, html.dark .border-\[\#ebe6dc\]\/80 {
+  border-color: rgba(56, 53, 49, 0.8) !important;
+}
+
+html.dark .text-\[\#2D2A26\], html.dark .text-\[\#2d2a26\] {
+  color: var(--text-primary) !important;
+}
+
+html.dark .text-\[\#8C867B\], html.dark .text-\[\#8c867b\] {
+  color: var(--text-muted) !important;
+}
+
+html.dark input, html.dark select, html.dark textarea {
+  background-color: #262423 !important;
+  color: var(--text-primary) !important;
+  border-color: var(--border-color) !important;
+}
+
+html.dark input::placeholder {
+  color: #706B62 !important;
+}
+
+html.dark .text-slate-600 {
+  color: var(--text-muted) !important;
+}
+
+html.dark .text-gray-500 {
+  color: var(--text-muted) !important;
+}
+
+html.dark .bg-\[\#FFFFFF\]\/95, html.dark .bg-\[\#ffffff\]\/95 {
+  background-color: rgba(29, 27, 26, 0.95) !important;
+}
+
+html.dark .bg-\[\#FFFFFF\], html.dark .bg-\[\#ffffff\] {
+  background-color: var(--bg-card) !important;
+}
+
+html.dark .hover\:bg-\[\#F6F4EF\]:hover, html.dark .hover\:bg-\[\#f6f4ef\]:hover {
+  background-color: #262423 !important;
+}
+
+html.dark select option {
+  background-color: #1D1B1A !important;
+  color: var(--text-primary) !important;
+}
+
+html.dark .text-red-700 {
+  color: #FF8F94 !important;
+}
+
+html.dark .border-red-200 {
+  border-color: #5C272C !important;
+}
+
+html.dark .bg-red-50 {
+  background-color: #2D1A1E !important;
+}
+
+html.dark .bg-\[\#2D2A26\], html.dark .bg-\[\#2d2a26\] {
+  background-color: #EDEBE6 !important;
+  color: #121110 !important;
+}
+
+html.dark .bg-\[\#2D2A26\] *, html.dark .bg-\[\#2d2a26\] * {
+  color: #121110 !important;
+}
+
+html.dark .hover\:bg-\[\#1E1C1A\]:hover, html.dark .hover\:bg-\[\#1e1c1a\]:hover {
+  background-color: #DFDDD8 !important;
+}
+
+html.dark #theme-mode-toggle {
+  background-color: var(--bg-card) !important;
+  border-color: var(--border-color) !important;
+  color: var(--text-primary) !important;
+}
+
+html.dark #theme-mode-toggle * {
+  color: var(--text-primary) !important;
+}
+
+.label-bento {
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #8C867B; /* Muted contrast grey */
+  font-weight: 600;
+  display: inline-block;
+}
+
+.stat-value {
+  font-size: 28px;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  color: #2D2A26;
+}
+
