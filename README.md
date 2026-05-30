@@ -51,15 +51,15 @@ NutriPulse is a modern AI-powered nutrition tracking platform that helps users m
 
 ## Dashboard
 
-<img width="100%" alt="Dashboard Preview" src="YOUR_SCREENSHOT_LINK_HERE" />
+<img width="100%" alt="Dashboard Preview" src="https://drive.google.com/file/d/1GV64aBCC1S13vuHMQHwhTm5jQhgZnLve/view?usp=drive_link" />
 
-## Food Tracking
+## Activity Log
 
-<img width="100%" alt="Food Tracking Preview" src="YOUR_SCREENSHOT_LINK_HERE" />
+<img width="100%" alt="Food Tracking Preview" src="https://drive.google.com/file/d/15HDJZTFVNDRk8pJR_8ycQKYDA39ItLEH/view?usp=drive_link" />
 
-## Analytics
+## Health Advisory
 
-<img width="100%" alt="Analytics Preview" src="YOUR_SCREENSHOT_LINK_HERE" />
+<img width="100%" alt="Analytics Preview" src="https://drive.google.com/file/d/1IOursvO5Ch652lC9UJgABI3HHnuBn1-9/view?usp=drive_link" />
 
 ---
 
